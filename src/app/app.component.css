@@ -1,0 +1,70 @@
+p {
+  font-family: Lato;
+}
+p {
+  font-family: Lato;
+}
+
+
+@font-face {font-family: "Hooverville";
+    src: url("//db.onlinewebfonts.com/t/89a842e6d50908b630901cde1fb4e105.eot");
+    src: url("//db.onlinewebfonts.com/t/89a842e6d50908b630901cde1fb4e105.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/89a842e6d50908b630901cde1fb4e105.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/89a842e6d50908b630901cde1fb4e105.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/89a842e6d50908b630901cde1fb4e105.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/89a842e6d50908b630901cde1fb4e105.svg#Hooverville") format("svg");
+}
+
+@font-face {font-family: "Blackout";
+    src: url("//db.onlinewebfonts.com/t/043dc34f93f1304030b1062e4bae1500.eot");
+    src: url("//db.onlinewebfonts.com/t/043dc34f93f1304030b1062e4bae1500.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/043dc34f93f1304030b1062e4bae1500.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/043dc34f93f1304030b1062e4bae1500.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/043dc34f93f1304030b1062e4bae1500.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/043dc34f93f1304030b1062e4bae1500.svg#Blackout") format("svg");
+}
+@font-face {font-family: "FargonW00-Black";
+    src: url("//db.onlinewebfonts.com/t/85018db9f2ad57f5fac1c5a27723f02d.eot");
+    src: url("//db.onlinewebfonts.com/t/85018db9f2ad57f5fac1c5a27723f02d.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/85018db9f2ad57f5fac1c5a27723f02d.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/85018db9f2ad57f5fac1c5a27723f02d.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/85018db9f2ad57f5fac1c5a27723f02d.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/85018db9f2ad57f5fac1c5a27723f02d.svg#FargonW00-Black") format("svg");
+}
+
+@font-face {font-family: "Metsys";
+    src: url("//db.onlinewebfonts.com/t/372790d60a51224a665f5bc9a54e2904.eot");
+    src: url("//db.onlinewebfonts.com/t/372790d60a51224a665f5bc9a54e2904.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/372790d60a51224a665f5bc9a54e2904.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/372790d60a51224a665f5bc9a54e2904.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/372790d60a51224a665f5bc9a54e2904.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/372790d60a51224a665f5bc9a54e2904.svg#Metsys") format("svg");
+}
+
+.text {
+ margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-family: 'Blackout';
+  font-size: 6rem;
+  letter-spacing: 0.1px;
+   display:flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(231, 235, 20);
+}
+
+.sub-title{
+  font-family:'Metsys'; 
+    font-size: 1.5rem;
+     display:flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  color: rgb(236, 232, 219);
+}
